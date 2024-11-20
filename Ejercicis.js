@@ -24,3 +24,27 @@ console.log(ternaria)
 let ternaria2 = y >= 10 && y <= 50 ? y + " está entre 10 y 50" : y + " no está entre 10 y 50"
 console.log(ternaria2)
 
+// Ejercicio 3
+console.log("=====Ejercicio 3=====")
+
+let nota = 3;
+
+if (nota <= 10 && nota >= 9) {
+    console.log("Excel·lent")
+}
+
+if (nota <= 8.99 && nota >= 7) {
+    console.log("Notable")
+}
+
+if (nota <= 6.99 && nota >= 6) {
+    console.log("Bé")
+}
+
+if (nota <= 5.99 && nota >= 5) {
+    console.log("Suficient")
+}
+
+if (nota <= 4.99 && nota >= 0) {
+    console.log("Suspès")
+}
