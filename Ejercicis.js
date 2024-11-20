@@ -48,3 +48,14 @@ if (nota <= 5.99 && nota >= 5) {
 if (nota <= 4.99 && nota >= 0) {
     console.log("Suspès")
 }
+
+// Ejercicio 4
+console.log("=====Ejercicio 4=====")
+
+let multiploEj1 = 21;
+
+switch (multiploEj1) {
+
+    case 50: multiploEj1 % 7 == 0
+}
+
